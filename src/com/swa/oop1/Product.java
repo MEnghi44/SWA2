@@ -4,11 +4,11 @@ public class Product {
 	
 	   private String productID;
 	    private String productName;
-	    Product(String pid, String p_name){
+	    Product(String pid, String pname){
 	      productID = pid;
-	      productName = p_name;
+	      productName = pname;
 	    }
-	    public String getDetailProduct(){
+	    public String getDetail(){
 	      return "Product ID : "+productID+" and Product Name : "+productName;
 	    }
 	}
